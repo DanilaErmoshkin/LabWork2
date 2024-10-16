@@ -1,0 +1,37 @@
+.body{
+    background: #CDAA7D;
+    
+}
+.blue{
+    color: rgb(45, 45, 177);
+}
+.bigRed{
+    color: rgb(255, 0, 0);
+    font-size: 1em;
+}
+.bigSize{
+    font-size: 1.2em;
+}
+.contentLeft{
+    border: solid;
+    border-color: #CDAA7D;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding: 20px;
+    font-size: 1.5em;
+    background:  #FAF3E0;
+}
+.contentRight{
+    border: solid;
+    border-color: #CDAA7D;
+    border-radius: 30px;
+    padding: 20px;
+    background-color:  #FAF3E0;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    margin: 2%;
+}
